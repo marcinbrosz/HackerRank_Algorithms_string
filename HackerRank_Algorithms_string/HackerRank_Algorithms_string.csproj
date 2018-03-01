@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HackerRank_Algorithms_string.FunnyString</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,8 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CaesarCipher.cs" />
+    <Compile Include="CamelCase.cs" />
+    <Compile Include="FunnyString.cs" />
+    <Compile Include="HackerRank_in_a_String!.cs" />
+    <Compile Include="Pangrams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeparatetheNumbers.cs" />
+    <Compile Include="SuperReducedString.cs" />
+    <Compile Include="TwoCharacters.cs" />
+    <Compile Include="WeightedUniformStrings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
